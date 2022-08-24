@@ -1,9 +1,6 @@
 from django.contrib import admin
 
-from core.models import Marca
-from core.models import Categoria
-from core.models import Carro
-
+from core.models import Marca, Categoria, Carro
 
 admin.site.register(Marca)
 admin.site.register(Categoria)
